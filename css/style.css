@@ -1,20 +1,121 @@
-html{
-	background-color: transparent;
-}
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: auto 0px;
+		padding: 0px;
+		background: #202020;
+		font-family: "century gothic";
+		font-size: 18px;
+		font-weight: 300;
+		color: #444444;
+	}
+	
+	 ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1200px;
+		box-shadow: 0px 0px 20px #000;
+		border-top: 10px solid #202020;
+	}
 
-div{
-	margin: 0px auto;
-}
+    #header
+	{
+		position:fixed;
+		float: left;
+		width: 300px;
+		height: 100%;
+		padding: 3em 0em;
+	}
 
-div#all{
-	background-color: lightgrey;
-	width: 65%;
-	top: 0px;
-}
+	#logo
+	{
+		text-align: center;
+		margin-bottom: 3em;
+	}
+	
+	#logo h2
+	{
+		display: block;
+		color: white;
+		text-decoration:  none;
+		text-transform: uppercase;
+	}
+	
+	#logo img
+	{
+		display: inline-block;
+		border-radius: 50%;
+		border: 5px solid rgba(255, 255, 255, 0.15);
+	}
 
-h1{
-	color: dodgerblue;
-	font-size: 50px;
-	font-family: "century gothic";
-	margin-left: 10px;
-}
+	#menu li
+	{
+		border-top: 1px solid rgba(255,255,255,0.08);
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: block;
+		padding: 1em 1.5em;
+		text-align: center;
+		text-decoration:  none;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: rgba(255,255,255,0.5);
+	}
+
+	#menu .current_page_item a
+	{
+		background: #2980b9;
+		color: rgba(255,255,255,1);
+	}
+
+
+	.title h2
+	{
+		text-transform: lowercase;
+		font-size: 2em;
+	}
+	
+	.title span
+	{
+		font-size: 1.3em;
+		color: #6F6F6F;
+	}
+		
+	
+	#banner
+	{
+		margin-bottom: 1em;
+	}
+	
+	#banner img{
+		width: 100%;
+	}
+
+	#page
+	{
+		background: #2a2a2a;
+	}
+
+	#main
+	{
+		overflow: hidden;
+		float: right;
+		width: 800px;
+		padding: 3em 50px 5em 50px;
+		background: #FFF;
+		text-align: center;
+	}
+
